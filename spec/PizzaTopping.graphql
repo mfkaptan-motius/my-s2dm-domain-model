@@ -27,14 +27,6 @@ enum CheeseType {
   PROVOLONE
 }
 
-enum SpiceLevel {
-  NONE
-  MILD
-  MEDIUM
-  HOT
-  VERY_HOT
-}
-
 """Meat-based pizza toppings."""
 type MeatTopping implements Ingredient {
   id: ID!

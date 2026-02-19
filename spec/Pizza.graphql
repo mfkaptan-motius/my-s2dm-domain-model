@@ -33,7 +33,7 @@ enum PizzaSize {
 type PizzaBase {
     doughType: DoughType!
     sauce: PizzaSauce!
-    spicyLevel: SpiceLevel!
+    spiceLevel: SpiceLevel!
 }
 
 """Different types of pizza dough bases."""
