@@ -79,5 +79,4 @@ enum VegetableType {
   BASIL
   OREGANO
   RED_ONION
-  GREEN_ONION
 }
