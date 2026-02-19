@@ -58,7 +58,7 @@ type VegetableTopping implements Ingredient {
   name: String!
   description: String
   calories: Float
-  amount(unit: MassUnit = GM): Int
+  amount(unit: MassUnit = GM): Float
   vegetableType: VegetableType!
   spiceLevel: SpiceLevel!
 }
