@@ -86,5 +86,4 @@ enum VegetableType {
   GARLIC
   BASIL
   OREGANO
-  PINEAPPLE
 }
