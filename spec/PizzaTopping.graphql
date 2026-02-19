@@ -27,6 +27,14 @@ enum CheeseType {
   PROVOLONE
 }
 
+enum SpiceLevel {
+  NONE
+  MILD
+  MEDIUM
+  HOT
+  VERY_HOT
+}
+
 """Meat-based pizza toppings."""
 type MeatTopping implements Ingredient {
   id: ID!
@@ -35,6 +43,7 @@ type MeatTopping implements Ingredient {
   calories: Float
   amount(unit: MassUnit = GM): Float
   meatType: MeatType!
+  spiceLevel: SpiceLevel!
 }
 
 """Different types of meat toppings for pizza."""
@@ -59,6 +68,7 @@ type VegetableTopping implements Ingredient {
   calories: Float
   amount(unit: MassUnit = GM): Float
   vegetableType: VegetableType!
+  spiceLevel: SpiceLevel!
 }
 
 """Different vegetable toppings available for pizza."""

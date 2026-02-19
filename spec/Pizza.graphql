@@ -18,7 +18,7 @@ enum PizzaName {
     SUPREME
     FOUR_CHEESE
     MEAT_LOVERS
-    #BBQ_CHICKEN
+    BBQ_CHICKEN
     CUSTOM
 }
 
