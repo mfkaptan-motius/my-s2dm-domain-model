@@ -63,7 +63,7 @@ type VegetableTopping implements Ingredient {
   spiceLevel: SpiceLevel!
 }
 
-"""Different vegetable toppings available for pizza."""
+"""Different vegetable toppings available for pizza. PINEAPPLE is not a vegetable, but it is a topping for pizza."""
 enum VegetableType {
   MUSHROOM
   ONION
