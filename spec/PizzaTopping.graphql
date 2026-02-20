@@ -78,6 +78,4 @@ enum VegetableType {
   GARLIC
   BASIL
   OREGANO
-  RED_ONION
-  PINEAPPLE
 }
