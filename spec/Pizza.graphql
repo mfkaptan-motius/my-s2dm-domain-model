@@ -53,6 +53,7 @@ enum PizzaSauce {
 }
 
 enum SpiceLevel {
+    NONE
     MILD
     MEDIUM
     HOT
