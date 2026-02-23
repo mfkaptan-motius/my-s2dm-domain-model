@@ -16,6 +16,3 @@ commit = true
 message = "chore: bump version {current_version} → {new_version}"
 moveable_tags = []
 commit_args = ""
-
-[[tool.bumpversion.files]]
-filename = ".bumpversion.toml"

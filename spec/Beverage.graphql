@@ -12,4 +12,5 @@ enum BeverageKind {
     WATER
     COFFEE
     TEA
+    HOT_CHOCOLATE
 }
