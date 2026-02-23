@@ -5,7 +5,7 @@ type Beverage {
     kind: BeverageKind!
 }
 
-"""Enumerates the possible kinds of beverages."""
+"""Enumerates the possible kinds of hot and cold beverages."""
 enum BeverageKind {
     SOFT_DRINK
     JUICE
