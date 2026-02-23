@@ -52,6 +52,7 @@ enum PizzaSauce {
     NONE
 }
 
+"""Different spice levels for pizza toppings."""
 enum SpiceLevel {
     NONE
     MILD
