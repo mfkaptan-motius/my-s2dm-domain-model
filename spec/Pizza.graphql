@@ -19,6 +19,7 @@ enum PizzaName {
     FOUR_CHEESE
     MEAT_LOVERS
     BBQ_CHICKEN
+    VEGAN_MARGHERITA
     CUSTOM
 }
 
