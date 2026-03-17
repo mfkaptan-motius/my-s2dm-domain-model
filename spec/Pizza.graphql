@@ -27,6 +27,7 @@ enum PizzaSize {
     SMALL
     MEDIUM
     LARGE
+    EXTRA_LARGE
 }
 
 """The foundation layer of a pizza including dough and base sauce."""
